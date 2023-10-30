@@ -3,9 +3,13 @@ This repository contains my solution to The Odin Project's Rock, Paper, Scissors
 
 # How to Play
 Open the index.html file in your web browser to start the game.
+
 Select your choice (Rock, Paper, or Scissors) by clicking on the respective icon.
+
 The computer (AI) will make its selection.
+
 The game will display the round result, indicating whether you won, lost, or tied.
+
 Continue playing until you decide to stop.
 
 # Technologies Used
