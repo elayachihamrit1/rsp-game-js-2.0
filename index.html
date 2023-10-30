@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RSP!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+<body>
+
+<div class="app">
+	
+	<div class="game">
+			
+		<div class="game_score">
+			
+					
+					<div class="scoreWrapper " class="playerScore">
+						<p class="name">Player</p>
+						<span id="player_score">-</span>
+					</div>
+
+					<div class="scoreWrapper" class="computerScore">
+						<p class="name">Computer</p>
+						<span id="computer_score">-</span>
+					</div>
+
+
+		</div><!-- // game_score -->
+
+
+		<div class="game_result default-bg">
+			<p class="resultText">Make your selection</p>
+		</div><!-- // game_result -->
+
+
+		<div class="playOptions">
+		
+			<a data="rock" class="choice" href="#">
+				<img class="icon" src="res/rock.svg">
+			</a>
+
+				<a data="paper" class="choice" href="#">
+				<img class="icon" src="res/paper.svg">
+			</a>
+
+				<a data="scissors" class="choice" href="#">
+				<img class="icon" src="res/scissors.svg">
+			</a>
+
+		</div><!-- // playOptions -->
+
+	</div><!-- game -->
+</div><!-- // app -->
+
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
