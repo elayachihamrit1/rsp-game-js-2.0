@@ -10,6 +10,8 @@ Continue playing until you decide to stop.
 
 # Technologies Used
 HTML: For creating the structure of the game.
+
 CSS: For styling and layout.
+
 JavaScript: For implementing the game logic and interactivity.
 
